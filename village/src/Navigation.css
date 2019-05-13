@@ -1,14 +1,17 @@
 .navigation {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 2% 1% 4% 6%;
   }
   
-  .navigation button {
-    width: 200px;
-    height: 50px;
-    border-radius: 20px;
-    background-color: rgba(136,204,255);
-    color: white;
-    font-size: 2rem;
+  .navigation a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .navigation .active-nav {
+    color: black;
+    border: 1px solid rgba(136,204,255);
+    padding: 10px;
   }
